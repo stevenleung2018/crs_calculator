@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "app_version": "0.1.0",
+  "rules_id": "2026-11-03",
+  "profile_sha256": "7da68578dcba908602bd6f61dd54fee06be1e4498e5f75d6bd43b3aa4c417a60",
+  "profile": {
+    "age": 34,
+    "education": "bachelors",
+    "first_language": {
+      "test": "ielts_general",
+      "speaking": 9,
+      "listening": 9,
+      "reading": 9,
+      "writing": 9,
+      "language_override": null,
+      "raw_scores": [
+        7.0,
+        8.0,
+        7.0,
+        7.0
+      ]
+    },
+    "second_language": null,
+    "canadian_work_years": 3,
+    "foreign_work_years": 2,
+    "certificate_of_qualification": false,
+    "canadian_education": "none",
+    "provincial_nomination": false,
+    "sibling_in_canada": false,
+    "spouse": {
+      "education": "bachelors",
+      "canadian_work_years": 1,
+      "language": {
+        "test": "celpip_general",
+        "speaking": 7,
+        "listening": 7,
+        "reading": 7,
+        "writing": 7,
+        "language_override": null,
+        "raw_scores": [
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ]
+      }
+    },
+    "high_wage_experience": "x1.5",
+    "job_offer": "none",
+    "notes": "Couple in Canada; principal has 3 years in a 1.5x high-wage occupation (Nov 2026 rules)."
+  },
+  "result": {
+    "total": 524,
+    "sections": {
+      "A. Core / human capital": 303,
+      "B. Spouse or common-law partner": 25,
+      "C. Skill transferability": 100,
+      "D. Additional points": 0,
+      "E. Labour Market Integration": 96
+    },
+    "warnings": [],
+    "items": [
+      {
+        "section": "A. Core / human capital",
+        "factor": "Age",
+        "input": "34 years",
+        "points": 75,
+        "max_points": 100,
+        "rule": "Age table, with spouse/partner. 20-29 earns the maximum; 17 or younger and 45 or older earn 0.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "A. Core / human capital",
+        "factor": "Level of education",
+        "input": "Bachelor's degree or 3+ year program",
+        "points": 112,
+        "max_points": 140,
+        "rule": "Education table, with spouse/partner.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "A. Core / human capital",
+        "factor": "First official language (English) - speaking",
+        "input": "CLB 9",
+        "points": 29,
+        "max_points": 32,
+        "rule": "Per-ability table, with spouse/partner: CLB 4-5 = 6, CLB 10+ = maximum.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "A. Core / human capital",
+        "factor": "First official language (English) - listening",
+        "input": "CLB 9",
+        "points": 29,
+        "max_points": 32,
+        "rule": "Per-ability table, with spouse/partner: CLB 4-5 = 6, CLB 10+ = maximum.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "A. Core / human capital",
+        "factor": "First official language (English) - reading",
+        "input": "CLB 9",
+        "points": 29,
+        "max_points": 32,
+        "rule": "Per-ability table, with spouse/partner: CLB 4-5 = 6, CLB 10+ = maximum.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "A. Core / human capital",
+        "factor": "First official language (English) - writing",
+        "input": "CLB 9",
+        "points": 29,
+        "max_points": 32,
+        "rule": "Per-ability table, with spouse/partner: CLB 4-5 = 6, CLB 10+ = maximum.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "B. Spouse or common-law partner",
+        "factor": "Spouse education",
+        "input": "Bachelor's degree or 3+ year program",
+        "points": 8,
+        "max_points": 10,
+        "rule": "Spouse education table.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "B. Spouse or common-law partner",
+        "factor": "Spouse language - speaking",
+        "input": "CLB 7",
+        "points": 3,
+        "max_points": 5,
+        "rule": "CLB 5-6 = 1, CLB 7-8 = 3, CLB 9+ = 5 per ability.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "B. Spouse or common-law partner",
+        "factor": "Spouse language - listening",
+        "input": "CLB 7",
+        "points": 3,
+        "max_points": 5,
+        "rule": "CLB 5-6 = 1, CLB 7-8 = 3, CLB 9+ = 5 per ability.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "B. Spouse or common-law partner",
+        "factor": "Spouse language - reading",
+        "input": "CLB 7",
+        "points": 3,
+        "max_points": 5,
+        "rule": "CLB 5-6 = 1, CLB 7-8 = 3, CLB 9+ = 5 per ability.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "B. Spouse or common-law partner",
+        "factor": "Spouse language - writing",
+        "input": "CLB 7",
+        "points": 3,
+        "max_points": 5,
+        "rule": "CLB 5-6 = 1, CLB 7-8 = 3, CLB 9+ = 5 per ability.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "B. Spouse or common-law partner",
+        "factor": "Spouse Canadian work experience",
+        "input": "1 year",
+        "points": 5,
+        "max_points": 10,
+        "rule": "Spouse Canadian work table.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "C. Skill transferability",
+        "factor": "Education + official language",
+        "input": "Bachelor's degree or 3+ year program; first language S9, L9, R9, W9",
+        "points": 25,
+        "max_points": 25,
+        "rule": "Points depend on the lower tier (CLB 7+ all, one under 9 / 1 year Canadian) vs higher tier (CLB 9+ all / 2+ years Canadian).",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "C. Skill transferability",
+        "factor": "Education + Canadian work experience",
+        "input": "Bachelor's degree or 3+ year program; Canadian work 3 years",
+        "points": 25,
+        "max_points": 25,
+        "rule": "Points depend on the lower tier (CLB 7+ all, one under 9 / 1 year Canadian) vs higher tier (CLB 9+ all / 2+ years Canadian).",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "C. Skill transferability",
+        "factor": "Foreign work + official language",
+        "input": "foreign work 2 years; first language S9, L9, R9, W9",
+        "points": 25,
+        "max_points": 25,
+        "rule": "Points depend on the lower tier (CLB 7+ all, one under 9 / 1 year Canadian) vs higher tier (CLB 9+ all / 2+ years Canadian).",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "C. Skill transferability",
+        "factor": "Foreign work + Canadian work experience",
+        "input": "foreign work 2 years; Canadian work 3 years",
+        "points": 25,
+        "max_points": 25,
+        "rule": "Points depend on the lower tier (CLB 7+ all, one under 9 / 1 year Canadian) vs higher tier (CLB 9+ all / 2+ years Canadian).",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "C. Skill transferability",
+        "factor": "Certificate of qualification + official language",
+        "input": "no certificate; first language S9, L9, R9, W9",
+        "points": 0,
+        "max_points": 50,
+        "rule": "CLB 5+ all (one under 7) = 25; CLB 7+ all = 50.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "D. Additional points",
+        "factor": "Provincial or territorial nomination",
+        "input": "no",
+        "points": 0,
+        "max_points": 600,
+        "rule": "Nomination = 600.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "D. Additional points",
+        "factor": "Sibling in Canada (citizen or PR)",
+        "input": "no",
+        "points": 0,
+        "max_points": 15,
+        "rule": "Applicant or accompanying spouse has a brother/sister 18+ in Canada who is a citizen or PR.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "D. Additional points",
+        "factor": "French language skills",
+        "input": "no French test",
+        "points": 0,
+        "max_points": 50,
+        "rule": "NCLC 7+ on all four French abilities: 50 if English is CLB 5+ on all four, otherwise 25 (English CLB 4 or lower, or no English test).",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "D. Additional points",
+        "factor": "Post-secondary education in Canada",
+        "input": "None / secondary or less",
+        "points": 0,
+        "max_points": 30,
+        "rule": "1-2 year credential = 15; 3+ years = 30.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/check-score/crs-criteria.html"
+      },
+      {
+        "section": "E. Labour Market Integration",
+        "factor": "Canadian work experience - work length",
+        "input": "3 years",
+        "points": 56,
+        "max_points": 70,
+        "rule": "Compared options: work experience 96 vs job offer 0; the Canadian work experience option is used (points are not combined).",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/changes.html"
+      },
+      {
+        "section": "E. Labour Market Integration",
+        "factor": "Canadian work experience - high-wage occupation",
+        "input": "At least 1.5x the median wage",
+        "points": 40,
+        "max_points": 70,
+        "rule": "At least 12 months in high-wage occupations: 2x = 70, 1.5x = 40, 1.3x = 20.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/changes.html"
+      },
+      {
+        "section": "E. Labour Market Integration",
+        "factor": "Qualifying job offer (no LMIA needed)",
+        "input": "Not a high-wage occupation / none",
+        "points": 0,
+        "max_points": 100,
+        "rule": "High-wage job offer: 2x = 100, 1.5x = 70, 1.3x = 50; not a high-wage occupation = 0.",
+        "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/changes.html"
+      }
+    ]
+  }
+}
